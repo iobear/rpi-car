@@ -24,16 +24,16 @@ case "$1" in
 if (dualShock_already_running_check "$1"); then
 	log_warning_msg "dualShock is already running"
 else {
-		while true; do
-				#waiting for the controller to be connected
-				if [ -a /dev/input/js0 ]; then
-						python $DAEMON &>>/var/log/dualShock &
-						break
-				else
-						sleep 1
-						#echo "waiting..."
-				fi
-		done
+	while true; do
+		#waiting for the controller to be connected
+		if [ -a /dev/input/js0 ]; then
+			python $DAEMON &>>/var/log/dualShock &
+			break
+		else
+			sleep 1
+			#echo "waiting..."
+		fi
+	done
 }
 fi
 		;;
