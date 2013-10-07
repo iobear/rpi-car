@@ -11,4 +11,6 @@ The rpi-car
 I will try to divide the project up into manageable parts, this way you should be able to pick the part you find most interesting.
 
 ### one scrtpt car
- One script car, is a good way to start exploring, how to control your car, with python commands, via the GPIO on the RPI.
+ One script car, is a good way to start exploring how to control your car, with python commands, via the GPIO on the RPI.
+
+![alt rc-car](https://raw.github.com/iobear/rpi-car/master/pictures/org_car.jpg)
