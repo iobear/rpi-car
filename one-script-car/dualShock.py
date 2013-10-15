@@ -1,10 +1,22 @@
 import sys
 import RPi.GPIO as GPIO
 import time
+import os.path
+
+
+while 1:
+	dsReady = os.path.exists('/dev/input/js0')
+	if dsReady:
+		break
+	else:
+		#waiting for dualshock to be ready
+		time.sleep(0.5)
+
 
 pipe = open('/dev/input/js0','r')
 action = []
 spacing = 0
+
 
 #Control a pair of pins
 def ControlAPairOfPins(FirstPin,FirstState,SecondPin,SecondState):
