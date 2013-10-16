@@ -38,14 +38,41 @@ The DC motor battery's are the same as the one used from the donor car, 4 x 1.5v
 
 <img src="https://raw.github.com/iobear/rpi-car/master/pictures/dc_motor_battery.jpg" alt="rpi battery" height="300" width="400">
 
+
+####DC controller
+
+I found a L298N DC controller on dx.com, for around 6 usd, you can find one here:
+<a href="http://dx.com/p/l298n-stepper-motor-driver-controller-board-for-arduino-120542">here</a>
+<br /> I think any L298N controller board will work, there is lots of them out there.
+
+#####Connections
+
+```
+RPI               L298N
+ground(PIN6)  <-> GND
+GIPO17(PIN11) <-> IN4
+GIPO18(PIN12) <-> IN3
+GIPO22(PIN15) <-> IN1
+GIPO22(PIN16) <-> IN2
+
+L298N MotorA <-> Back motor
+L298N MotorB <-> Front motor
+L298N VMS <-> + on battery pack
+L298N GND <-> - on battery pack
+
+```
+
+<img src="https://raw.github.com/iobear/rpi-car/master/pictures/l298n_dc_controller.jpg" alt="l298n dc controller"> 
+
+
+
 ####Wheezy snapshot
 
 If you are lazy or new to Linux, you can download a working snapshot of Raspain "wheezy", with my modifications via torrent.
 <a href="https://raw.github.com/iobear/rpi-car/master/one-script-car/wheezy-one_script_car_oct16.zip.torrent">here</a>
 
 The file is 2GB in size when compressed, and 8GB uncompressed. 
-To put the image on a sd-card, you fist have to unzip the .zip file.
- Depending on operating system, there is diffrent ways to copy the image to the card.
+ Depending on operating system, there is diffrent ways to copy the image to the card, remember to unzip first.
 
 ```
 Linux:
@@ -57,15 +84,14 @@ RasPiWrite or
 sudo dd if=path_of_your_image.img of=/dev/diskn bs=1m
 ```
 
-Read more here: http://elinux.org/RPi_Easy_SD_Card_Setup
+You can read more about SD-cards and images here: http://elinux.org/RPi_Easy_SD_Card_Setup
 
-image login:
+The image login is:
 
     user: pi
     pass: 1234
 
-You need to change a few thinges: (Keyboard and BT-dongle/dualshock bonding)
-
+After first boot you, you need to change a few thinges: (Keyboard and BT-dongle/dualshock bonding)
 
 ```
 sudo dpkg-reconfigure keyboard-configuration
@@ -73,7 +99,7 @@ sudo download/sixpair
 sudo reboot
 ```
 
-After the Pi has rebooted, press the PS button.
+When rebooted, press the PS button and you should be ready to play. 
 
 
 ####Credits:
