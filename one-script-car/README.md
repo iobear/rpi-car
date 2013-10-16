@@ -5,15 +5,29 @@ The one script car, is the a RC-car controlled by a Raspberry Pi, a PS3 dualshoc
 
 ####How it looks:
 
-http://www.youtube.com/watch?v=f1-Kq_kkoo0
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=f1-Kq_kkoo0
+" target="_blank"><img src="http://img.youtube.com/vi/f1-Kq_kkoo0/0.jpg" 
+alt="First test" width="240" height="180" border="10" /></a>
 
 ####Wheezy snapshot
 
-If you are lazy or new to Linux, you can download a working snapshot of Raspain "wheezy" via torrent.
+If you are lazy or new to Linux, you can download a working snapshot of Raspain "wheezy", with my modifications via torrent.
 <a href="https://raw.github.com/iobear/rpi-car/master/one-script-car/wheezy-one_script_car_oct16.zip.torrent">here</a>
 
- user: pi<br />
- pass: 1234
+login:
+
+    user: pi
+    pass: 1234
+
+You need to change a few thinges: (Keyboard, BT-dongle/dualshock bonding)
+
+
+```
+sudo dpkg-reconfigure keyboard-configuration
+sudo download/sixpair
+```
+
+
 
 ####Credits:
 
