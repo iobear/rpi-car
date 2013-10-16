@@ -9,6 +9,11 @@ The one script car, is the a RC-car controlled by a Raspberry Pi, a PS3 dualshoc
 " target="_blank"><img src="http://img.youtube.com/vi/f1-Kq_kkoo0/0.jpg" 
 alt="First test" width="240" height="180" border="10" /></a>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=9JCLskjOuQo
+" target="_blank"><img src="http://img.youtube.com/vi/9JCLskjOuQo/0.jpg" 
+alt="First test" width="240" height="180" border="10" /></a>
+
+
 ####BT dongles testet
 
 ![alt bt-dongle](https://raw.github.com/iobear/rpi-car/master/pictures/bt-dongle.jpg)
