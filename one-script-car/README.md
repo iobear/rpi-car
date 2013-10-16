@@ -41,7 +41,7 @@ The DC motor battery's are the same as the one used from the donor car, 4 x 1.5v
 
 ####DC controller
 
-I found a L298N DC controller on dx.com, for around 6 usd, you can find one here:
+I found a L298N DC controller on dx.com, for around 6 usd, you can find one 
 <a href="http://dx.com/p/l298n-stepper-motor-driver-controller-board-for-arduino-120542">here</a>
 <br /> I think any L298N controller board will work, there is lots of them out there.
 
@@ -91,7 +91,7 @@ The image login is:
     user: pi
     pass: 1234
 
-After first boot you, you need to change a few thinges: (Keyboard and BT-dongle/dualshock bonding)
+After first boot, you need to change a few thinges: (Keyboard and BT-dongle/dualshock bonding)
 
 ```
 sudo dpkg-reconfigure keyboard-configuration
