@@ -16,7 +16,7 @@ alt="First test" width="240" height="180" border="10" /></a>
 alt="First test" width="240" height="180" border="10" /></a>
 
 
-####BT dongles testet
+####BT dongles tested
 
 ![alt bt-dongle](https://raw.github.com/iobear/rpi-car/master/pictures/bt-dongle.jpg)
 
