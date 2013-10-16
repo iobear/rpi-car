@@ -11,6 +11,8 @@ alt="First test" width="240" height="180" border="10" /></a>
 
 ####BT dongles testet
 
+![alt bt-dongle](https://raw.github.com/iobear/rpi-car/master/pictures/bt-dongle.jpg)
+
 ```
 ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
 ID 0cf3:3005 Atheros Communications, Inc. AR3011 Bluetooth
