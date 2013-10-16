@@ -25,11 +25,16 @@ ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
 ID 0cf3:3005 Atheros Communications, Inc. AR3011 Bluetooth
 ```
 
+Bluetooth can be a hassle if you don't update your Raspberry Pi firmware:
+
+    sudo apt-get update
+    sudo apt-get install rpi-update
+
 ####Battery
 
-To power the Pi I'm using a 680mAh, 3.7v battery from a Creative mp3 player. You could use one from a cellphone also, with a ~4v output.
-I connect it directly to the 5v GPIO pin, with no protection in between - hint hint. 
-The placement of the battery is underneath the Pi, the mileage is not tested yet.
+To power the Pi I'm using a 680mAh, 3.7v battery from a Creative mp3 player. You could use a ~4v output cellphone battery also.
+I connect the battery directly to the 5v GPIO pin, with no protection in between. 
+The placement of the battery is underneath the Pi, and the mileage is not tested yet.
 
 <img src="https://raw.github.com/iobear/rpi-car/master/pictures/rpi_battery.jpg" alt="rpi battery">
 
@@ -41,7 +46,7 @@ The DC motor battery's are the same as the one used from the donor car, 4 x 1.5v
 
 ####DC controller
 
-I found a L298N DC controller on dx.com, for around 6 usd, you can find one 
+I found a L298N DC controller on dx.com for a price of 6 usd. You can find one 
 <a href="http://dx.com/p/l298n-stepper-motor-driver-controller-board-for-arduino-120542">here</a>
 <br /> I think any L298N controller board will work, there is lots of them out there.
 
