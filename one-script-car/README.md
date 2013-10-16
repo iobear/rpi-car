@@ -7,6 +7,14 @@ The one script car, is the a RC-car controlled by a Raspberry Pi, a PS3 dualshoc
 
 http://www.youtube.com/watch?v=f1-Kq_kkoo0
 
+####Wheezy snapshot
+
+If you are lazy or new to Linux, you can download a working snapshot of Raspain "wheezy" via torrent.
+<a href="https://raw.github.com/iobear/rpi-car/master/one-script-car/wheezy-one_script_car_oct16.zip.torrent">here</a>
+
+ user: pi<br />
+ pass: 1234
+
 ####Credits:
 
 Bluetooth:
