@@ -27,7 +27,7 @@ ID 0cf3:3005 Atheros Communications, Inc. AR3011 Bluetooth
 
 ####Battery
 
-To power the Pi i'm using a 680mAh, 3.7v battery from a Creative mp3 player. You could use one from a cellphone also, with a ~4v output.
+To power the Pi I'm using a 680mAh, 3.7v battery from a Creative mp3 player. You could use one from a cellphone also, with a ~4v output.
 I connect it directly to the 5v GPIO pin, with no protection in between - hint hint. 
 The placement of the battery is underneath the Pi, the mileage is not tested yet.
 
