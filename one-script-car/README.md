@@ -9,6 +9,13 @@ The one script car, is the a RC-car controlled by a Raspberry Pi, a PS3 dualshoc
 " target="_blank"><img src="http://img.youtube.com/vi/f1-Kq_kkoo0/0.jpg" 
 alt="First test" width="240" height="180" border="10" /></a>
 
+####BT dongles testet
+
+```
+ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+ID 0cf3:3005 Atheros Communications, Inc. AR3011 Bluetooth
+```
+
 ####Wheezy snapshot
 
 If you are lazy or new to Linux, you can download a working snapshot of Raspain "wheezy", with my modifications via torrent.
