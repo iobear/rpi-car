@@ -115,3 +115,5 @@ http://dhoium3009.wordpress.com/raspberry-pi-connecting-multiple-ps3-controllers
 Controlling GPIO with Python:
 http://pdwhomeautomation.blogspot.dk/2012/11/raspberry-pi-powered-lego-car.html
 
+Joystick configuration:
+http://www.stealth-x.com/programming/driver-writing-with-python.php
